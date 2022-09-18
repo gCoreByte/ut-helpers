@@ -34,8 +34,8 @@
       if (cur_time >= start && cur_time <= end) {
         return true;
       }
-      return false;
     }
+    return false;
   }
 
   async function weird_fetch(url, key) {
